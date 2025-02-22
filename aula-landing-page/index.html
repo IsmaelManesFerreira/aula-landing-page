@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smermaid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smermaid</h1>
+        <button onclick="showPopup()">Saiba Mais</button>
+        <form onsubmit="return validateForm(event)">
+            <input type="text" name="name" placeholder="Nome" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" placeholder="Sua mensagem" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
